@@ -1,0 +1,4 @@
+
+class GeneralSetup():
+
+    pass

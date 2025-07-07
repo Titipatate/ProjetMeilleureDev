@@ -1,0 +1,40 @@
+# 🐍 Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Environnements virtuels (local/env ou dossier nommé venv)
+env/
+venv/
+.venv/
+
+# 🔧 Fichiers de configuration VS Code
+.vscode/
+
+# 📁 Fichiers de logs
+*.log
+
+# 🧪 Fichiers de tests ou de debug temporaires
+*.tmp
+*.bak
+*.swp
+
+# 🖥️ Fichiers système macOS
+.DS_Store
+
+# 📦 Fichiers de dépendances (à gérer via requirements.txt)
+*.egg-info/
+dist/
+build/
+
+# 📦 PyInstaller (si tu packes ton app un jour)
+*.spec
+
+# 🔍 Fichiers d’analyse statique
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# 📄 Fichiers jetables ou spécifiques à ton IDE
+.idea/
